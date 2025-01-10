@@ -1,10 +1,8 @@
 const mongoose = require("mongoose");
 
 const postSchema = mongoose.Schema({
-  title: String,
-  body: String,
-  device: String,
-  no_if_comments: Number,
+  heading:String,
+  subscription:String
 });
 
 const PostModel = mongoose.model("user", postSchema);
